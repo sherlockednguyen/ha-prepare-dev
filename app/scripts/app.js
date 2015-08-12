@@ -1,3 +1,4 @@
+
 'use strict';
 
 /**
@@ -35,6 +36,10 @@ angular
       .when('/dashboard', {
         templateUrl: 'views/dashboard.html',
         controller: 'DashboardCtrl'
+      })
+      .when('/dashboard-dat', {
+        templateUrl: 'views/dashboard-dat.html',
+        controller: 'DashboardDatCtrl'
       })
       .when('/know-how', {
         templateUrl: 'views/know-how.html',
