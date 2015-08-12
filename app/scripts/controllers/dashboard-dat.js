@@ -9,5 +9,14 @@
  */
 angular.module('hackathonApp')
   .controller('DashboardDatCtrl', function($scope){
-      $scope.message = 'This is Dashboard dat page';
+        var routes = [
+            {
+                avatar: 'image01',
+                firstname: 'Dat',
+                title: 'Message title 01',
+
+            }
+        ];
+
+
   });
